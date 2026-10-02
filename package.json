@@ -1,0 +1,13 @@
+{
+  "name":"pulse-messenger",
+  "private":true,
+  "version":"0.1.0",
+  "scripts":{
+    "dev":"node apps/api/server.js",
+    "start":"node apps/api/server.js",
+    "typecheck":"node --check apps/api/server.js && node --check apps/web/app.js",
+    "lint":"node --check apps/api/server.js && node --check apps/web/app.js",
+    "test":"node tests/smoke.mjs",
+    "build":"node scripts/build-check.mjs"
+  }
+}
